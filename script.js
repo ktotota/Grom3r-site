@@ -2,5 +2,6 @@ const button = document.querySelector(".app-button");
 
 button.addEventListener("click", function () {
      event.preventDefault();
-    console.log("Кнопку нажали!");
+    const heading = document.querySelector("h1");
+    if (button.textContent === "Привет из JavaScript!"){}else{};
 });
