@@ -1,6 +1,6 @@
 const button = document.querySelector(".app-button");
 
-button.addEventListener("click", function () {
+button.addEventListener("click", function (event) {
      event.preventDefault();
     
     if (button.textContent === "Перейти в группу"){
