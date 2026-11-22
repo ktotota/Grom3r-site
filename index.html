@@ -1,0 +1,73 @@
+
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <title>Это моя визитка</title>
+  <style>
+    body {
+      background: #1e1f2b;
+      font-family: Arial, sans-serif;
+      color: #eaeaf0;
+      display: flex;
+      justify-content: center;
+      padding-top: 60px;
+    }
+
+    .card {
+      background: #2b2d3d;
+      border-radius: 16px;
+      padding: 40px;
+      max-width: 600px;
+      box-shadow: 0 10px 30px rgba(0, 0, 0, 0.4);
+    }
+
+    .logo {
+      width: 120px;
+      border-radius: 50%;
+    }
+
+    h1, h2 {
+      color: #7c8cff;
+    }
+
+    a {
+      text-decoration: none;
+      color: inherit;
+    }
+
+    .app-button {
+      display: inline-block;
+      margin-top: 10px;
+      padding: 14px 28px;
+      background: #9287d4;
+      color: #1e1f2b;
+      border-radius: 50px;
+      font-weight: bold;
+    }
+
+    .app-button:hover {
+  background: #9aa5ff;
+  transform: scale(1.05);   /* кнопка чуть-чуть увеличится */
+  box-shadow: 0 5px 15px rgba(124, 140, 255, 0.5); /* добавится свечение */
+}
+  </style>
+</head>
+<body>
+  <div class="card">
+    <img src="Logo.jpg" alt="Лого" class="logo">
+
+    <h1>Привет, я Grom3r!</h1>
+
+    <p>Я являюсь главой/лидером различных кланов во многих играх, зачем мне это?</p>
+    <p>Ну я хочу объединить RU комьюнити в одно цельное сообщество.</p>
+
+    <h2>Моя группа ВК</h2>
+    <p><a href=" https://vk.ru/grom3r" class="app-button">Перейти в группу</a></p>
+
+    <h2>Моё приложение</h2>
+    <p>Собираю свой мессенджер — здесь появится ссылка, когда он будет готов.</p>
+    <a href="#" class="app-button">Скоро здесь будет ссылка</a>
+  </div>
+</body>
+</html>
