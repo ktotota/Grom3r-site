@@ -5,6 +5,7 @@
   <meta charset="UTF-8">
   <title>Это моя визитка</title>
   <style>
+
     body {
       background: #1e1f2b;
       font-family: Arial, sans-serif;
@@ -46,6 +47,17 @@
       font-weight: bold;
     }
 
+    .app-button--secondary {
+      background: transparent;
+      border: 2px solid #7c8cff;
+      color: #7c8cff; 
+    }
+
+    .app-button--secondary:hover{
+      background: rgba(124, 140, 255, 0.15);
+      transform: scale(1.05);
+      box-shadow: 0 5px 15px rgba(124, 140, 255, 0.4)
+    }
     .app-button:hover {
   background: #9aa5ff;
   transform: scale(1.05);   /* кнопка чуть-чуть увеличится */
@@ -67,7 +79,8 @@
 
     <h2>Моё приложение</h2>
     <p>Собираю свой мессенджер — здесь появится ссылка, когда он будет готов.</p>
-    <a href="https://ktotota.github.io/Grom3r-site/" class="app-button">Скоро здесь будет ссылка</a>
+    <a href="https://ktotota.github.io/Grom3r-site/" class="app-button app-button--secondary">Скоро здесь будет ссылка</a>
   </div>
+  <script src="script.js"></script>
 </body>
 </html>
